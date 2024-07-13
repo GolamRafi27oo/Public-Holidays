@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'nothingFont';
+    src: url('../font/nothingFont.ttf');
+}
+*{
+    background-color: rgb(233, 232, 232);
+    font-family: nothingFont;
+    transition: .5s;
+}
+body select{
+    width: 100%;
+    font-size:larger;
+    text-align: center;
+    padding: 10px;
+    border: dotted black 2px;
+}
+select {
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+#countries option{
+    font-size: large;
+}
+.main{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.main h3{
+    color: #c80f2e;
+}
+.main li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+#holidayList{
+    margin-left: -42px;
+}
+
+@media screen and (max-width: 900px){
+    body select{
+        font-size:medium;
+    }
+    #countries option{
+        font-size:small;
+    }
+    .main{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body select{
+        font-size:small;
+    }
+    #countries option{
+        font-size:smaller;
+    }
+    .main{
+        font-size: 10px;
+    }
+}
