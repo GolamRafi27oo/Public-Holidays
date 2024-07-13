@@ -59,6 +59,9 @@ select {
         font-size:smaller;
     }
     .main{
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .main li{
+        font-size: 8px;
     }
 }
