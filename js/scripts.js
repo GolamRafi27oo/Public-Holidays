@@ -45,6 +45,7 @@ function populate_countries(countires){
     //console.log(countires[a].cca3);
     var countryOption = "<option value ='" + countires[a].cca3 +"'>"+ countires[a].name.common +"</option>"
     document.getElementById("countries").innerHTML += countryOption;
+    
   }
 }
 

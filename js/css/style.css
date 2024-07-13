@@ -4,21 +4,28 @@
     src: url('../font/nothingFont.ttf');
 }
 *{
-    background-color: rgb(233, 232, 232);
     font-family: nothingFont;
     transition: .5s;
+    background-color: black;
+    color: white;
+    scrollbar-color: black;
 }
+
 body select{
     width: 100%;
     font-size:larger;
     text-align: center;
     padding: 10px;
-    border: dotted black 2px;
+    border: dotted rgb(80, 79, 79) 2px;
 }
 select {
     border: none;
     padding: 10px;
     outline: none;
+    scrollbar-color: black;
+}
+select:hover{
+    color: #c80f2e;
 }
 #countries option{
     font-size: large;
@@ -37,6 +44,14 @@ select {
 }
 #holidayList{
     margin-left: -42px;
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #c80f2e;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 900px){
@@ -59,9 +74,6 @@ select {
         font-size:smaller;
     }
     .main{
-        font-size: 12px;
-    }
-    .main li{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
