@@ -76,4 +76,7 @@ select:hover{
     .main{
         font-size: 10px;
     }
+    .main p{
+        font-size: 12px;
+    }
 }
